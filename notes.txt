@@ -1,0 +1,20 @@
+Git init:
+Create and initialize a repository.
+git init
+
+Status:
+git status tells us the status of our working directory.
+
+Add:
+git add tells git to track specific files or folders
+
+Ignoring things.
+.gitignore
+Tells git to ignore certain files/ file paths relative to the current dir.
+
+Git commit
+
+git commit -m
+
+Git Patch mode:
+git add -p
