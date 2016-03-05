@@ -18,3 +18,7 @@ git commit -m
 
 Git Patch mode:
 git add -p
+
+Logs:
+git log shows us all the commits that were made.
+git log --oneline shows a summary of all commits.
