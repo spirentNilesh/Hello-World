@@ -22,3 +22,7 @@ git add -p
 Logs:
 git log shows us all the commits that were made.
 git log --oneline shows a summary of all commits.
+
+Diff:
+git diff <oldCommit> <newCommit>
+gives us the difference between 2 commits.
