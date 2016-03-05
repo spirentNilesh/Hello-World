@@ -7,17 +7,17 @@ git status tells us the status of our working directory.
 
 Add:
 git add tells git to track specific files or folders
+To stage certain changes with patch mode, we use
+git add -p
 
 Ignoring things.
 .gitignore
 Tells git to ignore certain files/ file paths relative to the current dir.
 
 Git commit
-
 git commit -m
-
-Git Patch mode:
-git add -p
+we can commit selected changes by using
+git commit -p
 
 Logs:
 git log shows us all the commits that were made.
