@@ -1,0 +1,61 @@
+Adding notes about Git.
+Git init:
+Create and initialize a repository.
+git init
+
+Status:
+git status tells us the status of our working directory.
+
+Add:
+git add tells git to track specific files or folders
+To stage certain changes with patch mode, we use
+git add -p
+
+Ignoring things.
+.gitignore
+Tells git to ignore certain files/ file paths relative to the current dir.
+
+Git commit
+git commit -m
+Commiting selective changes.
+we can commit selected changes by using
+git commit -p
+
+Logs:
+git log shows us all the commits that were made.
+git log --oneline shows a summary of all commits.
+
+Diff:
+git diff <oldCommit> <newCommit>
+gives us the difference between 2 commits.
+
+Branching:
+Git branches are like different universes we can experiment in.
+git branch shows all our branches
+To create a new branch, use - git branch <branch-name>
+
+Checkout:
+git checkout <branchName> switches to that branch
+Branches aren't automatically updated.
+> git checkout shifts the HEAD pointer around
+We can visit an older commit using git checkout <commit>
+
+
+Merging:
+To merge changes from one branch to another,
+use git merge <branch name>
+Conflicts occur if we make change that git can't automatically combine
+
+To fix a conflict, edit the file to be the way we want,
+then save and commit
+
+Undoing things
+To replace a single file with and older version, use
+git checkout <commit> <file>
+To undo an entire commit,
+git revert <commit>
+
+Git reset:
+git reset can be used to undo commits:
+git reset <commit> --<mode>
+In --hard mode, reset rolls back to the commit and DROPS ALL CHANGES since then
