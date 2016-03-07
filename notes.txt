@@ -33,3 +33,7 @@ Branching:
 Git branches are like different universes we can experiment in.
 git branch shows all our branches
 To create a new branch, use - git branch <branch-name>
+
+Checkout:
+git checkout <branchName> switches to that branch
+Branches aren't automatically updated.
