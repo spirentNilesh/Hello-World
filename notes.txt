@@ -17,6 +17,7 @@ Tells git to ignore certain files/ file paths relative to the current dir.
 
 Git commit
 git commit -m
+Commiting selective changes.
 we can commit selected changes by using
 git commit -p
 
