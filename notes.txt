@@ -28,3 +28,7 @@ git log --oneline shows a summary of all commits.
 Diff:
 git diff <oldCommit> <newCommit>
 gives us the difference between 2 commits.
+
+Checkout:
+git checkout <branchName> switches to that branch
+Branches aren't automatically updated.
