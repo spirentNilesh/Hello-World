@@ -48,3 +48,9 @@ Conflicts occur if we make change that git can't automatically combine
 
 To fix a conflict, edit the file to be the way we want,
 then save and commit
+
+Undoing things
+To replace a single file with and older version, use
+git checkout <commit> <file>
+To undo an entire commit,
+git revert <commit>
