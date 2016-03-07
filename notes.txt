@@ -28,3 +28,8 @@ git log --oneline shows a summary of all commits.
 Diff:
 git diff <oldCommit> <newCommit>
 gives us the difference between 2 commits.
+
+Branching:
+Git branches are like different universes we can experiment in.
+git branch shows all our branches
+To create a new branch, use - git branch <branch-name>
