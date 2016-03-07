@@ -1,3 +1,4 @@
+Adding notes about Git.
 Git init:
 Create and initialize a repository.
 git init
